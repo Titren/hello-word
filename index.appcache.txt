@@ -1,3 +1,0 @@
-CACHE MANIFEST
-#v1 - 2017-01-27
-index.html
