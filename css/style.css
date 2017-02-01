@@ -21,7 +21,22 @@ p.rouge{
 	background-color:#c0392b;
 }
 
-/*@media all (min-width:480px;) and (max-width:1200px;)  { 
+@media all (max-width:480px;){ 
 
 
-}*/
+}
+
+@media all (max-width:767px;){ 
+
+
+}
+
+@media all (max-width:979px;){ 
+
+
+}
+
+@media all (max-width:1200px;){ 
+
+
+}
