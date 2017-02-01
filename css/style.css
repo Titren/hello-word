@@ -21,6 +21,15 @@ p.rouge{
 	background-color:#c0392b;
 }
 
+
+img {
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
 @media all (max-width:480px;){ 
 
 
