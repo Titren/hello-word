@@ -20,3 +20,12 @@ p.blanc{
 p.rouge{
 	background-color:#c0392b;
 }
+
+@media all { 
+
+max-width:480px;
+max-width:767px;
+max-width:768px;
+max-width:1200px;
+
+}
