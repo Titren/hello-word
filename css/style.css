@@ -5,7 +5,8 @@ html {font-size:62.5%}
 h1 {
 	color: blue;
 	font-family:calibri;
-	font-size:2.5em;
+	font-size: 8vw;
+
 }
 
 p {
@@ -24,6 +25,31 @@ p.blanc{
 p.rouge{
 	background-color:#c0392b;
 }
+
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+
+td
+{
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 img {
