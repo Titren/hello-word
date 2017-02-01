@@ -21,11 +21,7 @@ p.rouge{
 	background-color:#c0392b;
 }
 
-@media all { 
+@media all (min-width:480px;) and (max-width:1200px;)  { 
 
-max-width:480px;
-max-width:767px;
-max-width:768px;
-max-width:1200px;
 
 }
