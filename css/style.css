@@ -29,28 +29,18 @@ p.rouge{
 table
 {
 
-    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    border-collapse: collapse; 
+}	
+
+table,tr{
+	border:0.5px solid black;
 }
 
-td
-{
-    border: 1px solid black;
+td.prem{
+	background-color:silver;
+	border-bottom:0.5px solid black;
+	border-right:0.5px solid black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 img {
@@ -61,34 +51,41 @@ img {
 	
 }
 
-@media screen (-webkit-min-device-pixel-ratio: 2), (max-width:480px;){ 
-table,tr,td
-{
+@media screen and(max-width:480px;),(-webkit-min-device-pixel-ratio: 2) { 
+table,tbody,tr,td
+{	
+	text-align:center;
 	display:block;
 }
 
 }
 
-@media screen (-webkit-min-device-pixel-ratio: 2), (max-width:767px;){ 
-table,tr,td
+@media screen and(max-width:767px;),(-webkit-min-device-pixel-ratio: 2){ 
+table,tbody,tr,td
 {
+	text-align:center;
 	display:block;
 }
 
+
 }
 
-@media screen (-webkit-min-device-pixel-ratio: 2), (max-width:979px;){ 
-table,tr,td
+@media screen and(max-width:979px;),(-webkit-min-device-pixel-ratio: 2){ 
+table,tbody,tr,td
 {
+	display:block;
+	text-align:center;
+
+}
+
+}
+
+@media screen and max-width:1200px;),(-webkit-min-device-pixel-ratio: 2){ 
+
+table,tbody,tr,td
+{
+	text-align:center;	
 	display:block;
 }
 
-}
-
-@media screen (-webkit-min-device-pixel-ratio: 2), (max-width:1200px;){ 
-
-table,tr,td
-{
-	display:block;
-}
 }
