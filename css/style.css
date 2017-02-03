@@ -4,7 +4,8 @@ html {
 
 body{
 	background-image:url(bg.jpg);
-	background-size:100% 100%;
+	background-size:cover;
+	
 }	
 
 h1 {
@@ -69,7 +70,6 @@ table,tbody,tr,td
 body{
 	background-position: center;
 	background-size:cover;
-	background-size:1000px;
 	background-attachment:fixed;
 }
 }
@@ -83,9 +83,7 @@ table,tbody,tr,td
 body{
 	background-position: center;
 	background-size:cover;
-	background-size:1800px;
 	background-attachment:fixed;
-
 }
 }
 
@@ -100,9 +98,7 @@ table,tbody,tr,td
 body{
 	background-position: center;
 	background-size:cover;
-	background-size:2000px;
 	background-attachment:fixed;
-
 }
 
 }
@@ -117,9 +113,7 @@ table,tbody,tr,td
 body{
 	background-position: center;
 	background-size:cover;
-	background-size:2200px;
 	background-attachment:fixed;
-
 }
 
 }
